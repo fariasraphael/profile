@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,800&display=swap');
+
+html {
+  background-color: #f3fde866;
+}
+
+h1 {
+  font-family: "Cairo";
+  font-size: 30px;
+  color: #698bd5;
+  text-shadow: #698bd5 1px 0 10px;
+}
+
+h2 {
+  font-size: large;
+}
+
+p {
+  font-size: small;
+}
+
+.container {
+  margin: 16px auto;
+  width: 500px;
+}
+
+.card {
+  font-family: 'Open Sans';
+  margin: 8px auto 1px;
+  border: #698bd552 dashed;
+  width: auto;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 800;
+  box-shadow: 0px 0px 16px rgba(105, 139, 213, 0.21);
+}
+
+
+#btn{
+  background-color: #d56969;
+  padding: 16px 16px;
+  margin: 8px;
+  display:inline-block;
+  font-size: 25px;
+  color: oldlace;
+  border-radius: 50%;
+  border: 4px solid #97525270;
+  box-shadow: 0px 8px 1px #698bd5;
+}
+
+#btn:active{
+  box-shadow: none;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  transition: 0.1s;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color:#698bd5;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 4px;
+}
+
+i:hover {
+  color:#ffffff;
+  transition: 0.3s;
+  background-color: #698bd5;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+  margin: 0 10px;
+
+}
+
+ul {
+  padding: 0
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 160px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
